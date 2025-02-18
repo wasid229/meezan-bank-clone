@@ -1,0 +1,311 @@
+.icon-nav {
+    display: none !important;
+}
+
+.logo {
+    width: 12vw;
+}
+
+.parent-nav {
+    font-size: 1.5rem;
+    padding: 1.5vw;
+}
+
+#parent-nav-1 {
+    padding: 0rem 1rem;
+    padding-right: 0rem 8rem;
+}
+
+#parent-nav-2, #parent-nav-3 {
+    padding: 1.5vw 2.1vw;
+}
+
+#parent-nav-6 {
+    width: 22vw;
+}
+
+#search {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    outline: none;
+    padding: 5px;
+}
+
+.para-nav{
+    width: 16vw;
+    height: 9rem;
+    margin: 0 auto;
+    padding-top: 2.6rem;
+    font-size: 1.4vw;
+    background-color: var(--bg-purple);
+}
+
+.internet {
+    font-size: 1.4vw;
+    
+}
+
+.container-2 {
+    margin: 6rem auto;
+}
+
+.parent-2 {
+    height: 45rem;
+}
+
+.para-2 {
+    width: 16vw;
+}
+
+.img-2 {
+    width: 17.5vw;
+}
+
+.container-4  {
+    padding: 4rem;
+}
+
+.parent4-div1 {
+    margin-bottom: 2rem;
+}
+
+.para-4 {
+    font-size: 2.5rem;
+}
+
+.parent4-div2 {
+    gap: 6rem;
+}
+
+.parent4-div3 {
+    text-decoration: underline;
+}
+
+.container-5 {
+    width: 100%;
+}
+.parent5-div1 {
+    width: 25%;
+    height: 8rem;
+}
+
+.investor {
+    margin: 6rem auto;
+    font-size: 1.4vw;
+}
+
+.icon-5 {
+    font-size: 2rem;
+}
+
+.container-footer {
+    padding: 5rem 0rem;
+    gap: 3rem;
+}
+
+.head-footer {
+    font-size: 2.4rem;
+    margin: 2rem 0rem;
+}
+
+.para-footer {
+    font-size: 1.2rem;
+}
+
+
+@media (max-width: 1200px) {
+
+    .parent-2 {
+        height: 40rem;
+    }
+
+    .head-2 {
+        font-size: 1.6vw !important;
+    }
+
+    .para-2 {
+        font-size: 1.2vw !important;
+    }
+
+    #img-2 {
+        height: 14rem;
+    }
+
+}
+
+@media (max-width: 992px) {
+
+    .container-nav {
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        width: 90vw;
+    }
+
+    .parent-nav {
+        width: 19rem;
+        padding: 0;
+        margin: 0;
+    }
+
+    #parent-nav-1 {
+        width: 50vw;
+        display: flex !important;
+        justify-content: start !important;
+        align-items: start !important;
+    }
+
+    #parent-nav-4, #parent-nav-5 {
+    padding: 1.5vw 2.1vw;
+    width: 30vw;
+}
+
+    .logo {
+        width: 20rem;
+        padding: 1rem;
+    }
+
+    #parent-nav-6, #parent-nav-7 {
+        display: none;
+    }
+
+    .parent-2 {
+        width: 50vw;
+        height: 35rem;
+    }
+
+    .parent4-div2 {
+        gap: 0;
+    }
+
+}
+
+@media (max-width: 768px) {
+     .container-nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+    }
+
+    #parent-nav-2, #parent-nav-3, #parent-nav-4, #parent-nav-5 {
+        display: none;
+    }
+
+    .icon-nav {
+        display: block !important;
+        text-align: start;
+        padding-left: 8vw;
+        font-size: 3vw;
+        width: 50vw;
+    }
+
+    #parent-nav-1 {
+        width: 50vw;
+    }
+
+    .logo {
+        width: 35vw;
+    }
+    .container-2 {
+        flex-wrap: wrap;
+    }
+
+    .parent-2 {
+        width: 50%;
+        height: 35rem;
+    }
+
+    .img-2, .head-2, .para-2 {
+        width: 90%;
+    }
+
+    .head-2, .para-2 {
+        width: 22rem;
+    }
+
+    .head-2 {
+        font-size: 2.5vw !important;
+    }
+
+    .para-2 {
+        font-size: 1.5vw !important;
+    }
+
+    .parent4-div2 {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 0;
+    }
+    .container-5 {
+        display: flex;
+        flex-direction: column;
+        justify-content: stretch;
+        align-items: start;
+        flex-wrap: wrap;
+    }
+
+    .parent5-div1 {
+        padding: 0;
+        margin: 0;
+        border: 1px solid var(--color-white);
+        width: 100%;
+        height: 4rem;
+    }
+
+    .investor {
+        font-size: 1.8rem;
+    }
+
+    .container-footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        flex-wrap: wrap;
+        align-items: start;
+        gap: 8rem;
+        width: 60vw;
+    }
+
+    .developed {
+        font-size: 1rem !important; 
+    }
+}
+
+@media (max-width: 576px) {
+    .container-footer {
+        gap: 0rem;
+        width: 50vw;
+    }
+}
+
+@media (max-width: 500px) {
+    .container-2 {
+        width: 80vw;
+    }
+
+    .parent-2 {
+        width: 80vw;
+        height: 30rem;
+        margin: 0 auto;
+        margin-bottom: 2rem;
+    }
+    
+    .img-2, .head-2, .para-2 {
+        width: 90%;
+    }
+
+    .img-2 {
+        width: 50vw;
+    }
+
+    .head-2 {
+        font-size: 5vw !important;
+        margin: 0 !important;
+    }
+
+    .para-2 {
+        font-size: 2.7vw !important;
+    }
+}
