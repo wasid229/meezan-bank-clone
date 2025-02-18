@@ -7,7 +7,7 @@
      font-weight: 600;
      font-style: normal;
      font-size: 62.5%;
-     /* border: 1px solid black; */
+
   }
  
  body {
@@ -42,8 +42,6 @@
      font-family: "sans-light";
  }
  
- 
- /* bg-color-started */
  :root {
  
    --bg-purple: #701e7d;
@@ -87,9 +85,7 @@
  .bg-light-gray {
    background-color: var(--bg-light-gray);
  }
- /* bg-color-ended */
- 
- /* color-started */
+
  :root {
  
    --color-purple: #701e7d;
@@ -133,4 +129,6 @@
  .color-light-gray {
    color: var(--color-light-gray);
  }
- /* color-ended */
+.color-purple {
+    color: var(--color-purple);
+}
